@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll menu smooth</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c1a34dec50.css" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <div class="menu">
+            <ul>
+                <li class="lista activa">
+                    <a href="#pagina-uno">
+                        <span class="icon">
+                            <ion-icon name="leaf-sharp"></ion-icon>
+                        </span>
+                        <span class="text">Planta</span>
+                    </a>
+                </li>
+                <li class="lista">
+                    <a href="#pagina-dos">
+                        <span class="icon"><ion-icon name="flame-sharp"></ion-icon></span>
+                        <span class="text">Fuego</span>
+                    </a>
+                </li>
+                <li class="lista">
+                    <a href="#pagina-tres">
+                        <span class="icon"><ion-icon name="water-sharp"></ion-icon></span>
+                        <span class="text">Agua</span>
+                    </a>
+                </li>
+                <li class="lista">
+                    <a href="#pagina-cuatro">
+                        <span class="icon"><ion-icon name="flash-sharp"></ion-icon></span>
+                        <span class="text">Electrico</span>
+                    </a>
+                </li>
+                <div class="indicador"></div>
+            </ul>
+        </div>
+    </header>
+    <article class="article">
+        <section id="pagina-uno">
+            <div class="tarjeta" id="tarjeta-1">
+                <div class="hp"><p><span>HP </span>45</p></div>
+                <div class="cuerpo"><img src="img/bulbasaur.png" alt="bulbasaur"></div>
+                <div class="titulo" id="titulo-1">Bulbasaur</div>
+                <div class="tipos"><span id="planta">Planta</span><span id="veneno">Veneno</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>49</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>49</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>45</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-1">
+                <div class="hp"><p><span>HP </span>45</p></div>
+                <div class="cuerpo"><img src="img/chikorita.png" alt="Chikorita"></div>
+                <div class="titulo" id="titulo-1">Chikorita</div>
+                <div class="tipos"><span id="planta">Planta</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>49</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>65</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>45</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-1">
+                <div class="hp"><p><span>HP </span>40</p></div>
+                <div class="cuerpo"><img src="img/treecko.png" alt="Treecko"></div>
+                <div class="titulo" id="titulo-1">Treecko</div>
+                <div class="tipos"><span id="planta">Planta</span><span id="veneno">Veneno</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>45</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>35</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>70</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-1">
+                <div class="hp"><p><span>HP </span>55</p></div>
+                <div class="cuerpo"><img src="img/turtwig.png" alt="Turtwig"></div>
+                <div class="titulo" id="titulo-1">Turtwig</div>
+                <div class="tipos"><span id="planta">Planta</span><span id="veneno">Veneno</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>68</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>64</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>31</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>  
+        </section>
+        <section id="pagina-dos">
+            <div class="tarjeta" id="tarjeta-2">
+                <div class="hp"><p><span>HP </span>39</p></div>
+                <div class="cuerpo"><img src="img/charmander.png" alt="charmander"></div>
+                <div class="titulo" id="titulo-2">charmander</div>
+                <div class="tipos"><span id="fuego">Fuego</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>52</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>43</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>65</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-2">
+                <div class="hp"><p><span>HP </span>39</p></div>
+                <div class="cuerpo"><img src="img/cyndaquil.png" alt="Cyndaquil"></div>
+                <div class="titulo" id="titulo-2">Cyndaquil</div>
+                <div class="tipos"><span id="fuego">Fuego</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>52</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>43</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>65</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-2">
+                <div class="hp"><p><span>HP </span>45</p></div>
+                <div class="cuerpo"><img src="img/torchic.png" alt="torchic"></div>
+                <div class="titulo" id="titulo-2">Torchic</div>
+                <div class="tipos"><span id="fuego">Fuego</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>60</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>40</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>45</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-2">
+                <div class="hp"><p><span>HP </span>44</p></div>
+                <div class="cuerpo"><img src="img/chimchar.png" alt="chimchar"></div>
+                <div class="titulo" id="titulo-2">Chimchar</div>
+                <div class="tipos"><span id="fuego">Fuego</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>58</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>44</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>61</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="pagina-tres">
+            <div class="tarjeta" id="tarjeta-3">
+                <div class="hp"><p><span>HP </span>44</p></div>
+                <div class="cuerpo"><img src="img/squirtle.png" alt="squirtle"></div>
+                <div class="titulo" id="titulo-3">Squirtle</div>
+                <div class="tipos"><span id="agua">Agua</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>48</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>65</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>43</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-3">
+                <div class="hp"><p><span>HP </span>50</p></div>
+                <div class="cuerpo"><img src="img/totodile.png" alt="Totodile"></div>
+                <div class="titulo" id="titulo-3">Totodile</div>
+                <div class="tipos"><span id="agua">Agua</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>65</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>64</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>43</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="tarjeta" id="tarjeta-3">
+                <div class="hp"><p><span>HP </span>50</p></div>
+                <div class="cuerpo"><img src="img/mudkip.png" alt="Mudkip"></div>
+                <div class="titulo" id="titulo-3">Mudkip</div>
+                <div class="tipos"><span id="agua">Agua</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>70</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>50</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>40</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div> 
+            <div class="tarjeta" id="tarjeta-3">
+                <div class="hp"><p><span>HP </span>53</p></div>
+                <div class="cuerpo"><img src="img/piplup.png" alt="Piplup"></div>
+                <div class="titulo" id="titulo-3">Piplup</div>
+                <div class="tipos"><span id="agua">Agua</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>51</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>53</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>40</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section id="pagina-cuatro">
+            <div class="tarjeta" id="tarjeta-4">
+                <div class="hp"><p><span>HP </span>35</p></div>
+                <div class="cuerpo"><img src="img/pikachu.png" alt="pikachu"></div>
+                <div class="titulo" id="titulo-4">Pikachu</div>
+                <div class="tipos"><span id="electrico">Electrico</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>45</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>40</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>90</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-4">
+                <div class="hp"><p><span>HP </span>55</p></div>
+                <div class="cuerpo"><img src="img/mareep.png" alt="Mareep"></div>
+                <div class="titulo" id="titulo-4">Mareep</div>
+                <div class="tipos"><span id="electrico">Electrico</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>40</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>40</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>35</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-4">
+                <div class="hp"><p><span>HP </span>40</p></div>
+                <div class="cuerpo"><img src="img/electrike.png" alt="Electrike"></div>
+                <div class="titulo" id="titulo-4">Electrike</div>
+                <div class="tipos"><span id="electrico">Electrico</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>45</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>40</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>65</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta" id="tarjeta-4">
+                <div class="hp"><p><span>HP </span>45</p></div>
+                <div class="cuerpo"><img src="img/shinx.png" alt="Shinx"></div>
+                <div class="titulo" id="titulo-4">Shinx</div>
+                <div class="tipos"><span id="electrico">Electrico</span></div>
+                <div class="stats">
+                    <div class="ataque">
+                        <h3>65</h3><p>Ataque</p>
+                    </div>
+                    <div class="defensa">
+                        <h3>34</h3><p>Defensa</p>
+                    </div>
+                    <div class="velocidad">
+                        <h3>45</h3><p>Velocidad</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+    <script>
+        const lista = document.querySelectorAll('.lista');
+        function activeLink(){
+            lista.forEach((item) =>
+            item.classList.remove('activa'));
+            this.classList.add('activa');
+        }
+        lista.forEach((item) =>
+        item.addEventListener('click',activeLink))
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
